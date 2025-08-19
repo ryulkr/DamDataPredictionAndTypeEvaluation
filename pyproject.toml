@@ -1,0 +1,32 @@
+[project]
+name = "dam-data-prediction-and-type-evaluation"
+version = "0.1.0"
+description = "Reproducible baselines for dam measurement data preprocessing and prediction."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name="Ryul Kim"}]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "xgboost",
+  "PyWavelets",
+  "torch>=2.0.0",
+  "optuna",
+  "matplotlib",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+lint.select = ["E","F","I","W","UP","B"]
+format.preview = true
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = ["src"]

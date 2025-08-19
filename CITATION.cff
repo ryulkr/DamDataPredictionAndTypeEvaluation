@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "DamDataPredictionAndTypeEvaluation"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Kim
+    given-names: Ryul
+repository-code: "https://github.com/ryulkr/DamDataPredictionAndTypeEvaluation"
+version: "0.1.0"
+date-released: "2025-08-19"
+preferred-citation:
+  type: article
+  title: "Smart dam safety management using measurement data prediction with outlier filtering and missing interval correction"
+  authors:
+    - family-names: Kim
+      given-names: Ryul
+  year: 2025
+  journal: "TBD"

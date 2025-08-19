@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+xgboost
+PyWavelets
+torch
+optuna
+matplotlib
+pre-commit
+pytest
+ruff
+black
